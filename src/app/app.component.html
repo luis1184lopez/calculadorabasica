@@ -1,0 +1,16 @@
+<h2>Calculadora Básica</h2>
+
+<div class="jumbotron">
+  <label>Calculadora Básica</label><br>
+
+  <input type="text" [(ngModel)]="dato1"/><br>
+  <input type="text" [(ngModel)]="dato2"/><br> 
+
+  
+  <input type="text" value={{resultado}}/><br>
+
+<input type="submit" (click)="sumar()" value="+"/>
+<input type="submit" (click)="restar()" value="-"/>
+<input type="submit" (click)="multiplicar()" value="*"/>
+<input type="submit" (click)="dividir()" value="/"/>
+</div>
